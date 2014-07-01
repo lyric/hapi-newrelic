@@ -1,0 +1,47 @@
+{
+  "name": "hapi-newrelic",
+  "description": "Add newrelic to a hapi project",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lyric/hapi-newrelic",
+  "bugs": "https://github.com/lyric/hapi-newrelic/issues",
+  "license": "MIT",
+  "main": "index",
+  "author": {
+    "name": "Lyric Hartley",
+    "email": "lyrichartley@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyric/hapi-newrelic"
+  },
+  "keywords": [
+    "hapi",
+    "plugin"
+  ],
+  "dependencies": {
+    "hoek": "2.3.0",
+    "newrelic": "^1.7.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-util": "2.2.16",
+    "gulp-bump": "^0.1.8",
+    "gulp-jshint": "^1.5.5",
+    "gulp-nodemon": "^1.0.4",
+    "jshint-stylish": "^0.2.0",
+    "gulp-load-plugins": "^0.5.1",
+    "gulp-plumber": "^0.6.2",
+    "gulp-lab": "0.0.7",
+    "hapi": "5.x.x",
+    "lab": "3.x.x"
+  },
+  "peerDependencies": {
+    "hapi": ">=2.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.22"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
+}
